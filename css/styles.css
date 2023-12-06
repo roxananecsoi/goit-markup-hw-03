@@ -70,6 +70,7 @@ img {
   color: var(--contacts-color);
 
   display: flex;
+  padding-left: 240px;
 }
 
 .list-contact {
@@ -152,11 +153,14 @@ img {
   margin-bottom: 8px;
 }
 
-.second-section-paragraph {
+.section-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 .fourth-section-header {
@@ -288,6 +292,11 @@ img {
 }
 
 .first-section-div {
+  padding-left: 380px;
+}
+
+.first-section-div-button {
+  padding-left: 550px;
 }
 
 .first-section-list {
@@ -369,7 +378,14 @@ img {
 }
 
 .portfolio-list-item {
-  width: calc((100% - 48px) / 3);
+  display: flex;
+  width: 345px;
+  height: 420px;
+  padding-bottom: 450px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
 }
 
 .portfolio-list-div {
