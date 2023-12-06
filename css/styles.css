@@ -28,6 +28,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-right: 76px;
 }
 
 .link {
@@ -48,6 +50,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+
+  padding: 24px 0;
 }
 
 .nav-list:hover,
@@ -60,6 +64,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--contacts-color);
+
+  display: flex;
 }
 
 .list-contact {
@@ -74,6 +80,8 @@ body {
 .first-section {
   background-color: var(--text-color);
   color: var(--white-color);
+
+  padding: 188px 0;
 }
 
 .first-section-header {
@@ -84,6 +92,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+
+  max-width: 496px;
 }
 
 .first-section-button {
@@ -96,6 +106,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .first-section-button:hover,
@@ -118,21 +134,45 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+
+  margin-bottom: 72px;
 }
 
-.section-header {
+.second-section-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  margin-bottom: 8px;
 }
 
-.section-paragraph {
+.second-section-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
+}
+
+.fourth-section-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.fourth-section-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #434455;
+
+  text-align: center;
 }
 
 .fourth-section {
@@ -142,15 +182,20 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  padding: 120px 0;
 }
 
-.fourth-section-list {
+.fourth-section-list-item {
   background-color: #ffffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px 4px;
 }
 
 .footer {
@@ -159,6 +204,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -170,6 +217,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  max-width: 264px;
 }
 
 .button {
@@ -203,4 +252,73 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+/*tema3*/
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.first-section-list {
+  display: flex;
+  gap: 40px;
+}
+
+.second-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.second-section-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.third-section {
+  padding-bottom: 120px;
+}
+
+.third-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.third-section-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.fourth-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.fourth-section-div {
+  padding: 32px 0;
+}
+
+.footer-main-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
