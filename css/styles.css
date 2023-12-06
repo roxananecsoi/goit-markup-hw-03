@@ -286,6 +286,10 @@ img {
   display: flex;
   align-items: center;
 }
+
+.first-section-div {
+}
+
 .first-section-list {
   display: flex;
   gap: 40px;
